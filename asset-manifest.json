@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.js": "/rails-to-riches-ui/static/js/main.d95c4022.js",
+    "main.js": "/rails-to-riches-ui/static/js/main.d396a000.js",
     "static/media/logo.png": "/rails-to-riches-ui/static/media/logo.ba8d895a509b2fbe099b.png",
     "index.html": "/rails-to-riches-ui/index.html",
-    "main.d95c4022.js.map": "/rails-to-riches-ui/static/js/main.d95c4022.js.map"
+    "main.d396a000.js.map": "/rails-to-riches-ui/static/js/main.d396a000.js.map"
   },
   "entrypoints": [
-    "static/js/main.d95c4022.js"
+    "static/js/main.d396a000.js"
   ]
 }
