@@ -18,8 +18,10 @@ root.render(
     <ThemeProvider theme={theme}>
       <CssBaseline /> {/* Normalize CSS across browsers */}
       <AuthProvider>
+      {/* <BrowserRouter basename='/reponame'> */}
         <App />
       </AuthProvider>
+      {/* </BrowserRouter> */}
     </ThemeProvider>
   </React.StrictMode>,
 );
