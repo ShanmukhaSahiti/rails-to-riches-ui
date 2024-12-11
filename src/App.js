@@ -9,6 +9,7 @@ import PrivateRoute from "./components/PrivateRoute";
 import Navbar from "./components/Navbar";
 import RestaurantForm from "./pages/RestaurantForm";
 import RestaurantProfile from "./pages/RestaurantProfile";
+import NotFound from "./pages/NotFound";
 
 // Wrapper component to include Navbar
 const PageWithNavbar = ({ children }) => (
