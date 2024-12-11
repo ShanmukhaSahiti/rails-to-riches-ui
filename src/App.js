@@ -82,7 +82,9 @@ function App() {
         {/* Public Routes without Navbar */}
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
-        <Route path="*" element={<NotFound />} /> 
+        {/* <PageWithNavbar>
+          <Route path="*" element={<NotFound />} />
+        </PageWithNavbar> */}
       </Routes>
     </Router>
   );
