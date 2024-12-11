@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
@@ -82,7 +82,7 @@ function App() {
         {/* Public Routes without Navbar */}
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
-        <Route path="*" element={<NotFound />} /> {/* Catch-all route */}
+        {/* <Route path="*" element={<NotFound />} />  */}
       </Routes>
     </Router>
   );
