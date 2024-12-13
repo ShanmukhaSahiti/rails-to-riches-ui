@@ -9,7 +9,6 @@ import PrivateRoute from "./components/PrivateRoute";
 import Navbar from "./components/Navbar";
 import RestaurantForm from "./pages/RestaurantForm";
 import RestaurantProfile from "./pages/RestaurantProfile";
-import NotFound from "./pages/NotFound";
 
 // Wrapper component to include Navbar
 const PageWithNavbar = ({ children }) => (
@@ -82,9 +81,6 @@ function App() {
         {/* Public Routes without Navbar */}
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
-        {/* <PageWithNavbar>
-          <Route path="*" element={<NotFound />} />
-        </PageWithNavbar> */}
       </Routes>
     </Router>
   );
